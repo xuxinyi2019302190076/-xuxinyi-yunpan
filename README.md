@@ -80,6 +80,8 @@ def year_archive(request, year):
 {% endblock %}
 ```
 ### news应用大致设计配置完成，将所有在本地仓库所做的更改全部保存并git到远程仓库
+  git add .
+  git commit -m "备注"
   git push
 
 # 主要问题和解决方法：
