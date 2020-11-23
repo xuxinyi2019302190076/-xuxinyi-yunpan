@@ -2,7 +2,7 @@
 
 
 # <font face="楷体">作业要求
-##使用Django，并仿照百度盘，编写一个具有秒传功能的云盘系统。
+## 使用Django，并仿照百度盘，编写一个具有秒传功能的云盘系统。
 
 # 作业完成过程
 ## 一.建立了本地仓库`*-XUXINYI-YUNPAN*`,创建了项目的主题文件，并且完成了与github远程仓库的联动。
@@ -173,3 +173,4 @@ fatal: Could not read from remote repository.
 
 
 # 作业结果展示
+github仓库地址：https://github.com/xuxinyi2019302190076/-xuxinyi-yunpan
