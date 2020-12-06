@@ -131,7 +131,7 @@ class HomeworkCreate(CreateView):
     fields = ['headline','attach','remark', 'student']
 
 ```
-### 在`templates`中新建一个文件`homework_form.html``
+### 在`templates`中新建一个文件`homework_form.html`
 ```python
 
 <html>
@@ -143,7 +143,27 @@ class HomeworkCreate(CreateView):
 </body>
 </html>
 ```
-### 
+### 在`urls.py`中创建根路径
+```python
+path('',include('news.urls'))
+path('',views,Homework.as_view())
+```
+### 在浏览器中输入`http://127.0.0.1:8000/news/hw/create/`，出现应用文本框，结果截图如下
+![avatar](SS1.png) （本地图片，仓库中不知道能否显示）
+
+Headline: 
+中国传媒大学寒假放假通知
+
+Attach: 分布式云计算期末.docx
+
+Remark: 
+假期很长 好好利用哦！
+
+Student: 
+许心怡
+
+## 四.自己搭建一个可以自动上传文件的云盘
+### 先创建仓库云盘`yunpan`，再通过phthon语句创建app `miaochuan`
 # 主要问题和解决方法：
 ## 问题1：在git克隆仓库时，没有访问权限
 
